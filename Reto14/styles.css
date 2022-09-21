@@ -1,0 +1,33 @@
+body {
+    height: 100%;
+}
+#divPadre {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+
+}
+
+#tablaCentral {
+    display: flex;
+    justify-content: center;
+     position: absolute;
+     top: 30%;
+}
+
+table {
+    background-color: white;
+    border: 5px double grey;
+    border-spacing: 0;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    border: 5px double grey;
+    width: 300px;
+    background-color: yellow;
+    text-align: center;
+}
