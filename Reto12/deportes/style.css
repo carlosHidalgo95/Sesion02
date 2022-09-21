@@ -1,0 +1,21 @@
+table{
+    border: 1px blue;
+    border-style:outset;
+    border-spacing: 0px;
+}
+th{
+    color: white;
+    background-color: darkgreen;
+}
+tr{
+    background-color: lightgreen;
+}
+td,th{
+    border: 1px solid blue;
+}
+.final{
+    background-color: darkgreen;
+}
+.tarifas{
+    text-align: center;
+}

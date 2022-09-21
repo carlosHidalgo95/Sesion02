@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,28 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <tbody>
-        <tr>
-            <th>ACTIVIDAD</th>
-            <th>TARIFA/HORA</th>
-        </tr>
-        <tr>
-            <td>Aerobic</td>
-            <td>3 €</td>
-        </tr>
-        <tr>
-            <td>STEP</td>
-            <td></td>
-        </tr>
-        <tr class="final">
-            <td>MUSCULACION</td>
-            <td>4 €</td>
-        </tr>
+        <table>
+            <tr>
+                <th>ACTIVIDAD</th>
+                <th>TARIFA/HORA</th>
+            </tr>
+            <tr>
+                <td>AEROBIC</td>
+                <td rowspan="2" class="tarifas">3 €</td>
+            </tr>
+            <tr>
+                <td>STEP</td>
+                <td></td>
+            </tr>
+            <tr class="final">
+                <td>MUSCULACION</td>
+                <td class="tarifas">4 €</td>
+            </tr>
+        </table>
     </tbody>
 </body>
+
 </html>
