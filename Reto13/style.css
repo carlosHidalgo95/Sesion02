@@ -1,0 +1,32 @@
+table{
+    border: 1px outset purple;
+    border-spacing: 0;
+}
+caption{
+    font-weight: bold;
+}
+th{
+    border: 1px outset purple;
+    background-color: aqua;
+}
+.celda2{
+background-color: tomato;
+text-align: left;
+}
+.celda6{
+    background-color: blueviolet;
+    text-align: right;
+    vertical-align: bottom;
+}
+.letraroja{
+    text-align: center;
+    color: red;
+}
+.centrada{
+    text-align: center;
+}
+td{
+    border: 1px outset purple;
+    font-weight: bold;
+    width: 300px;
+}
