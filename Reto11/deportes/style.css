@@ -1,0 +1,19 @@
+table{
+    background-color: rgb(195, 242, 195);
+    border: 2px outset blue;
+    border-spacing: 0cm;
+}
+th,td {
+    margin: 0,0,0,0;
+}
+th{
+    background-color: rgb(6, 196, 114);
+    border: 1px solid blue;
+    text-align: center;
+}
+td{
+    border:1px solid blue;
+}
+.medio{
+    background-color:rgb(122, 234, 186) ;
+}
